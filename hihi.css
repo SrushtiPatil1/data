@@ -1,0 +1,50 @@
+body {font-family: Arial, Helvetica, sans-serif}
+* {box-sizing: border-box;}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://ak.picdn.net/shutterstock/videos/1038712775/thumb/3.jpg");
+
+  min-height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: none;
+}
+
+/* Navbar links */
+.topnav a {
+    float: right;
+  color: white;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  padding-right: 50px;
+}
+
+.topnav a:hover {
+  background-color: none;
+  color: black;
+}
+
+.hihi{
+  color:bisque;
+}
